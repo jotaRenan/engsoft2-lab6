@@ -8,6 +8,9 @@ function divide(a, b) {
     }
     return a / b;
 }
-//
 
-module.exports = {sum, divide};
+function square(n) {
+    return n*n;
+}
+
+module.exports = {sum, divide, square};
