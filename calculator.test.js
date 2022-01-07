@@ -24,12 +24,12 @@ test('square of -3 equals 9', () => {
   expect(square(-3)).toBe(9);
 });
 
-test('isOdd of 0 is true', () => {
-  expect(isOdd(0)).toBe(true);
+test('isOdd of 0 is false', () => {
+  expect(isOdd(0)).toBe(false);
 });
 
-test('isOdd of 1 is false', () => {
-  expect(isOdd(1)).toBe(false);
+test('isOdd of 1 is true', () => {
+  expect(isOdd(1)).toBe(true);
 });
 
 test('factorial of 5 is 120', () => {
