@@ -13,4 +13,7 @@ function square(n) {
     return n*n;
 }
 
-module.exports = {sum, divide, square};
+function isOdd(n) {
+    return n % 2 === 1;
+}
+module.exports = {sum, divide, square, isOdd};
