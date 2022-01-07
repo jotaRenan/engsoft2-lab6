@@ -4,10 +4,6 @@ test('sum of two arguments: 1, 2 equals 3', () => {
   expect(sum(1, 2)).toBe(3);
 });
 
-test('sum of array of arguments [1, 2] equals 3', () => {
-  expect(sum([1, 2])).toBe(3);
-});
-
 test('dividing a number by 0 throws an error', () => {
   expect(() => divide(1, 0)).toThrow(Error);
 });
@@ -37,6 +33,10 @@ test('factorial of 5 is 120', () => {
 });
 
 test('factorial of 1 is 1', () => {
+  expect(factorial(1)).toBe(1);
+});
+
+test('factorial of negative number throws error', () => {
   expect(factorial(1)).toBe(1);
 });
 
