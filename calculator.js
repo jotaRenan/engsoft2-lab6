@@ -16,4 +16,10 @@ function square(n) {
 function isOdd(n) {
     return n % 2 === 1;
 }
-module.exports = {sum, divide, square, isOdd};
+
+function factorial(n) {
+    if (n === 0) return 1;
+    return n * factorial(n-1);
+}
+
+module.exports = {sum, divide, square, isOdd, factorial};
