@@ -13,7 +13,7 @@ test('dividing a number by 0 throws an error', () => {
 });
 
 test('dividing 3 by 2 equals 1.5', () => {
-  expect(divide(3, 2)).toBe(3);
+  expect(divide(3, 2)).toBe(1.5);
 });
 
 test('square of 3 equals 9', () => {
